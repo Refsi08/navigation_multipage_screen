@@ -6,7 +6,10 @@ class MainPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Silahkan Login Pada Aplikasi Ini"),
+        title: Text(
+          "Selamat Datang di Halaman Main Page",
+          style: TextStyle(fontSize: 20.5, fontStyle: FontStyle.italic),
+        ),
       ),
       body: Center(
         child: ElevatedButton(
